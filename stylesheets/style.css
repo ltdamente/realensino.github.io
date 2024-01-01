@@ -1,0 +1,95 @@
+
+#inscricao {
+  background-image: linear-gradient( to top, rgb(22 16 69), rgb(95 93 209), rgb(22 16 69));
+}
+#googleForm {
+  width: 100%;
+  min-height: 1600px;
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --main-color: white;
+  --color1: #373385;
+  --color2: #6267D9;
+  --color3: #565BBF;
+  --color4: #9D6ABA;
+  --color5: #7A68C4;
+
+  --corner: 5px;
+}
+
+#site {
+  background-color: var(--color1);
+  height: 100%;
+  min-height: 700px;
+}
+
+#container {
+  background-attachment: fixed;
+  /* background-color: var(--color2); */
+  /* background-image: url("/images/fundo.png"); */
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: var(--corner);
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+#header {
+  text-align: center;
+  width: 100%;
+}
+
+#header h1 {
+  display: none;
+}
+
+#header img {
+  height: 150px;
+}
+
+
+#links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link {
+  background-color: var(--color2);
+  border: var(--main-color) 1px solid;
+  border-radius: var(--corner);
+  color: var(--main-color);
+  display: block;
+  margin: 10px;
+  min-width: 100px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;  
+}
+
+#cerebro {
+  position: fixed;
+  top: 150px;
+  width: 400px;
+  left: -150px;
+	z-index: -1;
+}
+
+#ondao {
+	position: fixed;
+	top: 150px;
+	z-index: -2;
+	opacity: 40%;
+}
