@@ -1,0 +1,170 @@
+@font-face {
+  font-family: CooperHewitt;
+  src: url('../fonts/CooperHewitt-Light.otf');
+}
+
+* {
+  font-family: CooperHewitt, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body,
+html,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+h1 { 
+  font-size: 3.5em;
+}
+
+h2 { 
+  font-size: 3em;
+}
+
+h3 { 
+  font-size: 2em;
+}
+
+p {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-image: url('../images/check.png');
+  line-height: 2.5em;
+  margin-bottom: 20px;
+}
+
+a.btn {
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+a.btn:hover {
+  background-color: #ff8d00;
+}
+
+.center {
+  text-align: center;
+}
+
+dl, ul {
+  margin-top: 20px;
+}
+
+dt, dd {
+  margin: 0;
+}
+
+dt {
+  font-size: 0.8em;
+  color:#ff8d00;
+}
+
+dd {
+  font-size: 1.2em;
+  padding-left: 5px;
+}
+
+section.secondary {
+  background-color: #21005b;
+  color: white;
+}
+
+section#header {
+  height: 70px;
+}
+
+section#header img {
+  height: 100%;
+}
+
+section#hat {
+  min-height: 450px;
+  background-image: url('../images/cerebro.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+
+section#hat h1 {
+  display: none;
+  font-size: 5em;
+}
+
+section#hat h2 {
+  font-size: 4em;
+}
+
+section#hat h3 {
+  color: #ffe889;
+  font-size: 2.3em;
+}
+
+.neon {
+  color: ffa500;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+}
+
+.line {
+  display: block;
+}
+
+.book {
+  text-align: center;
+}
+
+.book > img {
+  margin: 0;
+}
+
+.promo {
+  background-color: #21005b;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 370px;
+}
+
+section {
+  padding: 10px 5%;
+}
+
+@media only screen and (min-width: 600px) {
+  section {
+    padding: 20px 5%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .no-wrap {
+   white-space: nowrap;
+  }
+
+  .book {
+    text-align: right;
+  }
+
+  .book > img {
+    margin-right: 10px;
+  }
+}
