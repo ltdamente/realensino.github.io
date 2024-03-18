@@ -3,6 +3,11 @@
   src: url('../fonts/CooperHewitt-Light.otf');
 }
 
+@font-face {
+  font-family: CooperHewittBold;
+  src: url('../fonts/CooperHewitt-Bold.otf');
+}
+
 * {
   font-family: CooperHewitt, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -60,10 +65,6 @@ a.btn:hover {
   background-color: #ff8d00;
 }
 
-.center {
-  text-align: center;
-}
-
 dl, ul {
   margin-top: 20px;
 }
@@ -90,7 +91,6 @@ section.secondary {
 section#header {
   padding: 0;
   height: 70px;
-  text-align: center;
 }
 
 section#header img {
@@ -128,15 +128,11 @@ section#hat h3 {
   display: block;
 }
 
-.book {
-  text-align: center;
-}
-
 .book > img {
   margin: 0;
 }
 
-.promo {
+.box {
   background-color: #21005b;
   color: white;
   padding: 20px;
@@ -144,7 +140,23 @@ section#hat h3 {
   width: 370px;
 }
 
+.box > .promo {
+  background-color: #ff8d00;
+  color: black;
+  display: inline-block;
+  padding: 20px;
+  /* margin: 20px; */
+  width: 50%;
+  font-size: 3em;
+}
+
+.box > h4 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
 section {
+  text-align: center;
   padding: 10px 5%;
 }
 
@@ -155,6 +167,26 @@ section {
 section#autor > img {
   max-width: 100%;
 }
+
+#footer { 
+  padding: 10px;
+}
+
+.stroke {
+  text-decoration: line-through;
+}
+
+.preco {
+  font-size: 3em;
+  font-family: CooperHewittBold;
+  margin-top: 0px;
+}
+
+.lateral {
+  min-width: 300px;
+  text-align: left;
+}
+
 @media only screen and (min-width: 600px) {
   section {
     padding: 20px 5%;
