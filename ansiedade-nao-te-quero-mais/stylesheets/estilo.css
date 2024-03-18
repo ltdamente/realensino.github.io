@@ -88,7 +88,9 @@ section.secondary {
 }
 
 section#header {
+  padding: 0;
   height: 70px;
+  text-align: center;
 }
 
 section#header img {
@@ -144,6 +146,10 @@ section#hat h3 {
 
 section {
   padding: 10px 5%;
+}
+
+.hotmart {
+  height: 1em;
 }
 
 @media only screen and (min-width: 600px) {
