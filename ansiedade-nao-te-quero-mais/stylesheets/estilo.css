@@ -152,6 +152,9 @@ section {
   height: 1em;
 }
 
+section#autor > img {
+  max-width: 100%;
+}
 @media only screen and (min-width: 600px) {
   section {
     padding: 20px 5%;
@@ -172,5 +175,9 @@ section {
 
   .book > img {
     margin-right: 10px;
+  }
+
+  section#autor > img {
+    max-width: 500px;
   }
 }
